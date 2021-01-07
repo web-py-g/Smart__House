@@ -1090,6 +1090,7 @@ input:disabled + label:before {
 	.cost__right {
 	    grid-column: span 2;
 	}
+	
 	.control__main__img {
 	    grid-column: span 2;
 
@@ -1120,7 +1121,33 @@ input:disabled + label:before {
 	.contact__icon a {
 	    width: 30px;
 	}
+
+	.popup_conect {
+	    min-width: 200px;
+	    min-height: 100px;
+	}
+	.popup_conect .cost__forma__text {
+	    font-size: 14px;
+	}
+	.popup_conect .cost__right__form {
+	    max-width: 240px;
+	}
+	.popup_conect .checkbox__text {
+	    font-size: 10px;
+	    line-height: 10px;
+	    padding: 0px 0;
+	    width: 70px;
+	}
+	.popup_conect label {
+	
+	}
+
+	.popup_conect .cost__send {
+	    margin: 5px auto;
+	    padding: 10px 70px;
+	}
 }	
+
 
 @media screen and (max-width: 380px) {
 	.header__logo {

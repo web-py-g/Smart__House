@@ -31,7 +31,6 @@
             each.addEventListener('click', function () {
                 const currentTarget = this.getAttribute('href');
                 smoothScroll(currentTarget, 1000);
-
             });
         });
     };

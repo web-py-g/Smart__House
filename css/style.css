@@ -1189,7 +1189,7 @@ input:disabled + label:before {
 @media screen and (max-width: 330px) {
 
 	.header__nav__item__link {
-	    margin-left: 4px;
+	    margin-left: 3px;
 	    font-size: 7px;
 	}
 	.welcome__text {

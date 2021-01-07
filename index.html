@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+			<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Умный дом</title>
+		<meta name="description" content="Simple House ">
+		<meta name="keywords" content="умный дом, дом">
+		<link rel="stylesheet"  href="css/style.css">
+	</head>
+	<body>
+
+		<header class="header">
+			<div class="wrapper">
+				<div class="header__logo">
+					<a href="" class="header__logo__link"><img src="img/png/logo.png" alt="logo" class="header__logo__img"></a>
+				</div>
+				<nav class="header__nav">
+					<ul class="header__nav__list">
+						<li class="header__nav__item"><a href="#about" class="header__nav__item__link js-scroll">о нас</a></li>
+						<li class="header__nav__item"><a href="#than" class="header__nav__item__link js-scroll">чем управляем</a></li>
+						<li class="header__nav__item"><a href="#how" class="header__nav__item__link js-scroll">как управляем</a></li>
+						<li class="header__nav__item"><a href="#scripts" class="header__nav__item__link js-scroll">сценарии</a></li>
+						<li class="header__nav__item"><a href="#object" class="header__nav__item__link js-scroll">наши объекты</a></li>
+						<li class="header__nav__item"><a href="#contact" class="header__nav__item__link js-scroll">контакты</a></li>
+					</ul>
+				</nav>
+				<div class="header__contact">
+					<h2 class="header__contact__titel">Москва</h2>
+					<p class="header__contact__num">+7(812)313-24-53</p>
+				</div>
+				<div class="header__contact">
+					<h2 class="header__contact__titel">Санкт Петербург</h2>
+					<p class="header__contact__num">+7(812)313-24-53</p>
+				</div>
+				<div class="header__buttom">
+					<a href="#popup" class="header__buttom__link">заказать звонок</a>
+				</div>
+			</div>
+		</header>
+
+
+		<section class="welcome">
+			<div class="wrapper__full">
+				<h1 class="welcome__text">
+					Умный дом <br> премиум<br> класса
+				</h1>
+
+				<div class="welocome__honor">
+					<img src="img/png/Награды.png" alt="" class="welcome__honor__img">
+				</div>
+				<div class="welcome__scroll"></div>
+			</div>
+		</section>
+
+
+		<section class="about" id="about">
+			<div class="wrapper">
+				<div class="about__main">
+					<div class="about__left">
+						<p class="about__left__text">
+							Умный дом увеличит престиж, комфорт, безопасность вашего дома 
+						</p>
+						<div class="about__left__look">
+							<span class="bg"></span> <h3 class="about__left__look__text">посмотрите наши объекты</h3><span class="arrow"></span>
+						</div>
+					</div>
+					<div class="about__right">
+						<div class="about__right__desc">
+							<div class="about__right__desc__item">
+								<div class="item__elements"><span class="num">330</span><span class="plus">+</span> <p class="item__elements__text"> Выполнили объектов</p></div>
+							</div>
+							<div class="about__right__desc__item">
+								<div class="item__elements"><span class="num">1млн</span><span class="plus">+</span> Площади автоматизировали</div>
+							</div>
+							<div class="about__right__desc__item">
+								<div class="item__elements"><span class="num">120</span><span class="plus">+</span> Клиентов остались довольны</div>
+							</div>
+						</div>
+						<div class="about__right__text">
+							14 лет <br> опыта
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="cost">
+			<div class="wrapper">
+				<div class="cost__main">
+					<div class="cost__left">
+						<div class="cost__left__text">
+							<span class="money">Узнайте стоимость</span> <br> <span class="house"> Умного <br> дома</span> <br> <span class="place">Для вашего помещения</span>
+						</div>
+						<img src="img/png/box.png" alt="box" class="box">
+					</div>
+					<div class="cost__right">
+						<div class="cost__right__text">
+							Мы свяжемся с вами
+						</div>
+						<form class="cost__right__form">
+							<p class="cost__forma__text">
+								Ваш проект будет вести персональный менеджер «Умный дом» не мешает реализации любого дизайн-проект
+							</p>
+
+							<input type="text" placeholder="Имя" required class="cost__form__item">
+							<input type="tel" pattern="[0-9]{11}" required placeholder="8 - (XXX) - XXX - XX - XX" class="cost__form__item">
+							<input type="text" placeholder="Почта" required class="cost__form__item">
+
+							<input type="checkbox" id="checkbox" title="Подтвердите согласие на обработку данных" required class="cost__form__check"><label for="checkbox" class="checkbox__text">Соглашаюсь на <span style="color: #F04C23">обработку персональных данных</span></label>
+							<input type="submit" formmethod="POST" formaction="#thanks" class="cost__send">
+
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="control">
+			<div class="wrapper">
+				<div class="control__main">
+					<div class="control__main__elem">
+						<img src="img/control1.jpg" alt="control1" class="control__main__img">
+						<div class="control__text" id="than">
+							<h2 class="control__text__titel">Чем управляем в "умнымом доме"?</h2>
+							<p class="control__main__text">Работа всех систем проходит в автоматизированном режиме, а управление с помощью смартфона, планшета и обычных выключателей. Изучение компьютерных программ для управления умным домом не требуется. Умный дом состоит из нескольких устройств установленных по дому, каждое из которых имеет свой собственный интеллект. Всего нажатием одной кнопки можно установить в помещении желаемую температуру, открыть ворота или выключить освещение в неиспользуемых в данных момент помещениях. Все происходит быстро: вы не будете видеть, как работает умный дом, но вот уже налицо существенная экономия энергоресурсов и, как следствие, сбережение семейного бюджета.</p>
+						</div>
+					</div>
+					<div class="control__main__elem">
+						<div class="control__text">
+							<h2 class="control__text__titel">Какая выгода от умного дома?</h2>
+							<p class="control__main__text">Вы получите комфорт - возможность управлять освещением не вставая с кровати перед сном, управлять отоплением прямо с телефона, открывать ворота не бегая ко входу, выключать одной кнопкой всё при уходе, включать кинотеатр одной кнопкой, и это не весь перечень, а только его часть. При этом не важно, Вы дома, на работе или в отпуске, все работает через интернет. Вы получите цены значительно ниже конкурентов, так как наша компания - разработчик и производитель. Вы получите шеф-контроль всего проекта от начала и до сдачи. Вы получите экономию энергии 25-30% за счет оптимального управления системами отопления, кондиционирования, освещения. Мы имеем самую широкую дилерскую сеть из 450 компаний в каждом городе России и СНГ</p>
+						</div>
+						<img src="img/control2.jpg" alt="control2" class="control__main__img">
+						
+					</div>
+					<div class="control__main__elem">
+						<img src="img/control3.jpg" alt="control3" class="control__main__img">
+						<div class="control__text" id="how">
+							<h2 class="control__text__titel">Как управлять "умным домом"?</h2>
+							<p class="control__main__text">Это профессиональная система автоматизации и управления всеми подсистемами в доме, квартире, офисе, любом здании.  <br> <br> Умный дом INSYTE– это автоматизированная система по управлению техническими устройствами, которыми оборудуют жилые помещения. Искусственный интеллект оптимизирует и согласовывает между собой работу каждого из них, обеспечивая доступность и простоту управления ими. Система является гибридной - запатентованное решение, объединяющее проводные и беспроводные технологии.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="scripts" id="scripts">
+			<div class="wrapper">
+				<h2 class="scripts__titel">Возможности наших систем</h2>
+				<h3 class="scripts__subtitel">Наше оборудование позволят управлять большим перечнем систем</h3>
+
+				<div class="scripts__main">
+					<img src="img/script.jpg" alt="script" class="scripts__img">
+					<h3 class="scripts__main__titels">Освещение</h3>
+					<p class="scripts__main__descr">Управление любым типом светильника, а также создание определенной атмосферы через диммирование или изменения цвета. Автоматическое, групповое и сценарное управление освещением.</p>
+					<h3 class="scripts__main__titels">Отопление и теплый пол</h3>
+					<p class="scripts__main__descr">Обеспечение комфортной температуры в автоматическом режиме. Не нужны дополнительные термостаты. Экономия энергорусурсов. Мобильное управление</p>
+					<h3 class="scripts__main__titels">Кондиционирование</h3>
+					<p class="scripts__main__descr">Различные режимы работы системы кондиционирования. Управление с любой панели или мобильного устройства. Автоматический контроль температуры.</p>
+					<h3 class="scripts__main__titels">Шторы и жалюзи</h3>
+					<p class="scripts__main__descr">Автоматизированное управление в зависимости от уровня освещенности. Дистанционный контроль, сценарное управление, максимальное удобство в использовании.</p>
+					<h3 class="scripts__main__titels">Системы безопасности</h3>
+					<p class="scripts__main__descr">Комплексная защита, применение различных датчиков, имитация присутствия, дистанционный контроль, интеграция с домофонными и охранными системами</p>
+					<h3 class="scripts__main__titels">Музыка</h3>
+					<p class="scripts__main__descr">Возможность проигрывать музыкальные треки в одной комнате, или во всем доме. Управление мультирумом с настенных панелей и с мобильных устройств. Воспроизведение с любых звуковых систем</p>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="gallery" id="object">
+			<div class="wrapper">
+				<h2 class="gallery__titel">
+						Наши объекты
+					</h2>
+				<div class="gallery__main">
+
+					<div class="gallery__item">
+						<img src="img/gallery1.jpg" alt="gallery1" class="gallery__item__elem">
+					</div>
+					<div class="gallery__item">
+						<img src="img/gallery2.jpg" alt="gallery1" class="gallery__item__elem">
+					</div>
+					<div class="gallery__item">
+						<img src="img/gallery3.jpg" alt="gallery1" class="gallery__item__elem">
+					</div>
+					<div class="gallery__item">
+						<img src="img/gallery4.jpg" alt="gallery1" class="gallery__item__elem">
+					</div>
+					<div class="gallery__item">
+						<img src="img/gallery5.jpg" alt="gallery1" class="gallery__item__elem">
+					</div>
+					<div class="gallery__item">
+						<img src="img/gallery6.jpg" alt="gallery1" class="gallery__item__elem">
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="contact" id="contact">
+			<div class="wrapper">
+				<div class="contact__main">
+					<div class="contact__info">
+						<h2 class="contact__info__titel">
+							Наши контакты
+						</h2>
+						<p class="contact__info__decr">
+							Контактная информация:<br>
+							Адрес: 123456, г.Москва, ул. Центральная 1, офис 1<br><br>
+							E-mail: Test@yandex.ru<br>
+							Телефон: 8 800 300 06 00 отдела продаж<br>
+							Телефон: 8 800 340 06 00 отдела сбыта<br><br>
+							Контактное лицо: Степанов В.И.<br><br>
+							Также вы можете найти нас в социальных сетях!
+						</p>
+						<div class="contact__icon">
+					
+							<a href="https://vk.com/id175090628" target="_blank"><img src="img/png/icon-vk.png" alt="vk" class="icon3"></a>
+
+							<a href="https://www.instagram.com/web_py_g/" target="_blank"><img src="img/png/icon-inst.png" alt="instagram" class="icon2"></a>
+
+							<a href="https://github.com/web-py-g" target="_blank"><img src="img/png/icon-git.png" alt="github" class="icon1"></a>
+
+							<a href="https://t.me/WebWordP" target="_blank"><img src="img/png/icon-teleg.png" alt="telegram" class="icon4"></a>
+
+
+						</div>
+					</div>
+					<div class="contact__map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37199.120446252884!2d30.316076669170727!3d59.95126168813768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310b32cbe2e9%3A0x74e032aa0505dfc!2z0JPQvtGB0YPQtNCw0YDRgdGC0LLQtdC90L3Ri9C5INCt0YDQvNC40YLQsNC2!5e0!3m2!1sru!2sru!4v1609944548750!5m2!1sru!2sru" width="850" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<div id="popup" class="popup">
+			<a href="#header" class="popup_area"></a>
+			<div class="popup_body">
+				<div class="popup_conect">
+					<a href="#header" class="popup_close">X</a>
+					
+					<div class="cost__right__text">
+						Оставить заявку
+					</div>
+					<form class="cost__right__form">
+						<p class="cost__forma__text">
+							После подачи заявки с вами свяжется наш менеджер
+						</p>
+
+						<input type="text" placeholder="Имя" required class="cost__form__item">
+						<input type="tel" pattern="[0-9]{11}" required placeholder="8 - (XXX) - XXX - XX - XX" class="cost__form__item">
+						<input type="text" placeholder="Почта" required class="cost__form__item">
+
+						<input type="checkbox" id="checkbox1" title="Подтвердите согласие на обработку данных" required class="cost__form__check"><label for="checkbox1" class="checkbox__text">Соглашаюсь на <span style="color: #F04C23">обработку персональных данных</span></label>
+						<!-- <input type="checkbox" id="checkbox" required class="cost__form__check"><label for="checkbox" class="checkbox__text">Соглашаюсь на <span style="color: #F04C23">обработку персональных данных</span></label> -->
+						<input type="submit" formmethod="POST" formaction="#thanks" class="cost__send">
+					</form>					
+				</div>
+			</div>
+		</div>
+
+		<div id="thanks" class="popup__thanks">
+			<a href="#header" class="popup__thanks_area"></a>
+			<div class="popup__thanks_body">
+				<div class="popup__thanks_conect">
+				
+					<a href="#header" class="popup__thanks_close">X</a>
+					
+					<h2 class="popup__thanks__titel">Благодарим за заявку!</h2>
+
+					<div class="border"></div>
+
+					<h3 class="popup__thanks__subtitel">Менеджер свяжется с вами <br> в течении 15 минут</h3>				
+				</div>
+			</div>
+		</div>
+
+		<script src="./js/main.js"></script>
+
+	</body>
+
+</html>

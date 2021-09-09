@@ -816,7 +816,11 @@ input:disabled + label:before {
 }
 /* popup style end */
 /*   media style start */
-
+@media screen and (max-width: 1310px) {
+	.cost__right__text{
+		left: 0%;
+	}
+}
 @media screen and (max-width: 1060px) {
 	.header__nav__item__link{
 		margin-left: 10px;

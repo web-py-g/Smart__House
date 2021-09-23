@@ -1154,7 +1154,7 @@ input:disabled + label:before {
 
 
 @media screen and (max-width: 380px) {
-	.header__nav__item__link:nth-child(2){
+	.header__nav__item:nth-child(2){
 		display: none;
 	}
 	.header__logo {
